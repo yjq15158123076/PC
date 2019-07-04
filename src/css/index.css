@@ -1,0 +1,328 @@
+
+.parent_d{
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: #D9D9D9; */
+}
+.title_d{
+    font-size: 34px;
+    font-weight: 800;
+}
+.user_d{
+    width: 600px;height: 100px;
+    margin-left: 10px;
+    margin-top: 50px;
+    border-bottom: 1px solid #666666;
+}
+.user2{
+    /* background-color: #fff; */
+    margin: 0 auto;
+}
+.user_text_d{
+    width: 600px;height: 30px;
+    /* margin-left: 10px; */
+    line-height: 40px;
+    color:#666666;
+    margin-left: 20px;
+}
+.user_d span{
+    color: #969696;
+    font-size: 12px;
+    padding: 2px;
+}
+.avatar_d{
+    /* line-height: 100px; */
+    margin-left: 10px;
+    margin-top: 27px;
+    border-radius: 50%;
+    width: 48px;height: 48px;
+    /* background-image: url("") */
+    float: left;
+}
+.user_d>div{
+    float: left;
+    padding-left: 5px;
+    /* padding-top: 10px; */
+    line-height: 24px;
+}
+.paragraph_d{
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 30px;
+
+}
+
+.Description_d{
+    margin: 50px;
+}
+.title_d{
+    padding: 1px;
+}
+.paragraph_d>img{
+    padding-top: 1px;
+    margin-top: 50px;
+    /* padding-top:70px; */
+    /* margin-top: 30px; */
+    display: block;
+    padding-left: 1px;
+    margin: 0 auto;
+}
+.paragraph_d span{
+    text-align: center;
+    color: #969696;
+    border-bottom: 1px solid #969696;
+}
+.gift_d{
+    font-size: 20px;
+    color: #666666;
+    text-align: center;
+    font-weight: 600;
+}
+.dashang_d{
+    width: 170px;
+    height: 60px;
+    display: block;
+    background-color: #EA6F5A;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    /* margin-top: 20px; */
+    font-size: 20px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+.erweima_d{
+    position: relative;
+    left: 0;top: 0;
+    color: red;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 300px;
+    width: 500px;
+    height: 300px;
+    background-color: skyblue;
+    position: fixed;
+    left: 0;right: 0;top: 0;bottom: 0;
+    margin: auto;
+}
+.off_d{
+    /* font-size: 20px; */
+    display: block;
+    height: 40px;
+    width: 60px;
+    position: absolute;
+    right: 0;top: 0;
+    margin: auto;
+}
+.like_num_d{
+    display: block;
+    margin: 50px auto 0;
+    width: 200px;height: 60px;
+    border: 1px solid #EA6F5A;
+    color: #EA6F5A;
+    font-size: 30px;
+    border-radius: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+.num_d::before{
+    /* margin-top: 50px; */
+    content: "|";
+    columns: #333333;
+}
+.img_user_d{
+    /* line-height: 30px; */
+    /* margin-top: 20px; */
+    border-radius: 50%;
+    width:58px; height: 58px;
+    float: left;
+}
+.comment_d{
+    padding: 30px;
+    /* height: 172px; */
+    /* background-color: antiquewhite; */
+    /* line-height:  */
+    border-top: 1px solid #666666;
+}
+.justlook_d{
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    border: 1px solid #666666;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    /* line-height:64px; */
+}
+.name_user_d{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    line-height:30px;
+}
+.body_parent_d{
+    width: 1200px;
+    margin: 0 auto;
+}
+.body_item_d{
+    margin-top: 20px;
+
+}
+.bottom_d{
+    width: 1200px;
+    margin :0 auto;
+}
+.Jane_logo{
+    display: block;
+    width: 100px;
+    position:absolute;
+    top: 56px;
+    margin-left: 50px;
+}
+.Jane_logo>img{
+    width: 100px;
+}
+.main_login{
+    width: 400px; height: 500px;
+    padding: 50px 50px 30px;
+
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 210px auto 0;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+.login_title{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+.login_title>a{
+    display: block;
+    width: 56px;height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #9F9F9F;
+}
+.login_title>b{
+    text-align: center;
+    width: 50px;
+    line-height: 42px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #9F9F9F;
+}
+.login_active_d{
+    color: #EA6F5A !important;
+    border-bottom: 3px solid #EA6F5A;
+}
+.input_box_d{
+    position: relative;
+    left: 0; top: 0;
+    margin-top: 48px;
+    background-color: #F7F7F7;
+    width: 300px;
+    border-radius: 3px;
+    overflow: hidden;
+    border: 1px solid #C8C8C8;
+
+
+}
+.input_box_d i{
+    font-size: 20px;
+}
+.ipt_login i{
+    position: absolute;
+    left: 10px;
+    top: 15px;
+}
+.ipt_regis i{
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+.ipt_phone i{
+    position: absolute;
+    left: 10px;
+    top: 65px;
+    font-size: 24px;
+}
+.btn_login_d{
+    margin-top: 5px;
+    display: block;
+    width: 300px;height: 43px;
+    text-align: center;
+    line-height: 43px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #3194D0;
+    border-radius: 30px;
+}
+.otherlog_d{
+    width: 300px;
+}
+.horizontal_d{
+    margin: 0px 10px;
+    float: left;
+    margin-top: 10px;
+    display: block;
+    width: 70px;
+    height: 1px;
+    background-color: #B5B5B5;
+}
+.horizontal2_d{
+    margin: 0px 10px;
+    float: right;
+    margin-top: 10px;
+    display: block;
+    width: 70px;
+    height: 1px;
+    background-color: #B5B5B5;
+}
+.otherlog_d{
+    margin-top: 18px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.otherlog_d a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.otherlog_d .otherlog_qt{
+    color: #999999;
+    font-size: 14px;
+    font-weight: 500;
+}
+.otherlog_d .otherlog_wb{
+    color: #E05244;
+    font-size: 36px;
+}
+.otherlog_d .otherlog_wx{
+    color: #00BB29;
+    font-size: 34px;
+}
+.otherlog_d .otherlog_qq{
+    color: #498AD5;
+    font-size: 28px;
+}
+.iagreen_d{
+    margin-top: 5px;
+    padding: 0px 10px;
+    text-align: center;
+    /* background-color: #00BB29; */
+    color: #9F9F9F;
+}
+.iagreen_d span{
+    color: #3194D0;
+    cursor: pointer;
+}
