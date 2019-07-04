@@ -7,7 +7,7 @@
                 </a>
                 <a href="javascript:;" class="btn write-btn-y" target="_blank">
                     <img src="../images/Head-Y/2.jpg" class="iconfont ic-write-y">
-                    写文章11111
+                    写文章
                 </a>
                 <a href="javascript:;" class="btn sign-up-y">注册</a>
                 <a href="javascript:;" class="btn log-in-y">登录</a>
