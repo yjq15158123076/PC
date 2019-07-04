@@ -24,7 +24,9 @@
                         <li class="tab-y1 active-y">
                             <a href="javascript:;">
                                 <img src="../images/Head-Y/8.jpg" alt="">
-                                <span class="menu-text-y">首页</span>
+                                <router-link to="/home">
+                                    <span class="menu-text-y">首页</span>
+                                </router-link>
                             </a>
                         </li>
                         <li class="tab-y">

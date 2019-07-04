@@ -24,13 +24,16 @@
                         <li class="tab active-y">
                             <a href="javascript:;">
                                 <img src="../images/Head-Y/5.jpg" alt="">
-                                <span class="menu-text-y">首页</span>
+
+                                    <span class="menu-text-y">首页</span>
+
                             </a>
                         </li>
                         <li class="tab-y">
                             <a href="javascript:;">
                                 <img src="../images/Head-Y/6.jpg" alt="">
-                                <span class="menu-icon-y">下载App</span>
+                                <router-link to="/son5"><span class="menu-icon-y">下载App</span></router-link>
+
                             </a>
                         </li>
                         <li class="search-y">
@@ -56,7 +59,7 @@
 
 
 
-                                <a href="javascript:;" class="search-btn-y">
+                                <a href="javascript:;" class="search-btn-y" @click="jg">
                                     <img src="../images/Head-Y/7.jpg" alt="">
                                 </a>
                             </form>
@@ -317,13 +320,24 @@
                 dian.style.display="block";
                 window.event? window.event.cancelBubble = true  : e.stopPropagation();
             },
-            show(){
-                var dian=document.getElementsByClassName("yc-y")[0];
-                dian.style.display="none";
+
+            jg(){
+                var val=document.getElementsByClassName("search-input-y")[0].value;
+                if(val.length==0){
+                    alert("请输入内容");
+                }else{
+                    alert("未查到结果");
+                }
+            },
+            qq(){
+                document.onclick=function () {
+                    var dian=document.getElementsByClassName("yc-y")[0];
+                    dian.style.display="none";
+                }
             }
         },
         mounted(){
-                document.addEventListener("click",this.show)
+                this.qq();
 
         }
     }
