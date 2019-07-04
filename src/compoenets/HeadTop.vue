@@ -35,7 +35,27 @@
                         </li>
                         <li class="search-y">
                             <form action="">
-                                <input type="text" placeholder="搜索" class="search-input-y">
+                                <input type="text" placeholder="搜索" class="search-input-y" @click="ss">
+                                <div class="yc-y">
+                                    <div class="rm-y">
+                                        热门搜索
+                                    </div>
+                                    <ul>
+                                        <li><a href="javascript:;">手帐</a></li>
+                                        <li><a href="javascript:;">书法</a></li>
+                                        <li><a href="javascript:;">PPT</a></li>
+                                        <li><a href="javascript:;">穿搭</a></li>
+                                        <li><a href="javascript:;">打碗碗花</a></li>
+                                        <li><a href="javascript:;">简书</a></li>
+                                        <li><a href="javascript:;">姥姥的澎湖湾</a></li>
+                                        <li><a href="javascript:;">设计</a></li>
+                                        <li><a href="javascript:;">创业</a></li>
+                                        <li><a href="javascript:;">交友</a></li>
+                                    </ul>
+                                </div>
+
+
+
                                 <a href="javascript:;" class="search-btn-y">
                                     <img src="../images/Head-Y/7.jpg" alt="">
                                 </a>
@@ -233,6 +253,41 @@
         outline: none;
     }
 
+    .yc-y{
+        position:absolute;
+        padding: 20px 20px 10px;
+        border-bottom: 1px solid #f0f0f0;
+        background-color: #fff;
+        box-shadow: 0 0 8px rgba(0,0,0,.2);
+        margin-top: 5px;
+        display: none;
+    }
+
+    .rm-y{
+        height: 20px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        color: #969696;
+    }
+
+    .yc-y ul{
+        display: block;
+    }
+
+    .yc-y li{
+        margin-right: 10px;
+        display: inline-block;
+        line-height: 28px;
+    }
+
+    .yc-y a{
+        padding: 2px 6px;
+        font-size: 12px;
+        color: #787878;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+    }
+
     .search-btn-y {
         position: absolute;
         top: 4px;
@@ -255,4 +310,21 @@
 
 <script>
 
+    export default {
+        methods:{
+            ss(){
+                var dian=document.getElementsByClassName("yc-y")[0];
+                dian.style.display="block";
+                window.event? window.event.cancelBubble = true  : e.stopPropagation();
+            },
+            show(){
+                var dian=document.getElementsByClassName("yc-y")[0];
+                dian.style.display="none";
+            }
+        },
+        mounted(){
+                document.addEventListener("click",this.show)
+
+        }
+    }
 </script>

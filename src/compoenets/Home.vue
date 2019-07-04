@@ -680,14 +680,19 @@
         right: 0;
         width: 150px;
         height: 100px;
+        overflow: hidden;
+    }
+
+    .wrap-img-y:hover .img-blur-done{
+        transform: scale(1.1);
     }
 
     .img-blur-done {
-
         width: 100%;
         height: 100%;
         border-radius: 4px;
         border: 1px solid #f0f0f0;
+        transition: all 0.5s;
     }
 
     .content-y {
