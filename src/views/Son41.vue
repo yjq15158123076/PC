@@ -1,39 +1,6 @@
 <template>
     <div>
-        <!--<div class="head-s">-->
-            <!--<div class="headcenter-s">-->
-                <!--<a class="logo-s" href=""><img src="../images/Son41/logo.png" alt=""></a>-->
-                <!--<ul class="headul-s">-->
-                    <!--<li style="margin-left: 160px;"><a href="javascript:;"><img src="../images/Son41/faxian.png"-->
-                                                                                <!--alt=""><span>发现</span></a></li>-->
-                    <!--<li><a href="javascript:;"><img src="../images/Son41/guanzhu.png" alt=""> <span>关注</span></a></li>-->
-                    <!--<li class="headli-3-s">-->
-                        <!--<a href="javascript:;">-->
-                            <!--<img src="../images/Son41/xiaoxi.png" alt="">-->
-                            <!--<span>消息</span><span class="red-s">1</span>-->
-                        <!--</a></li>-->
-                    <!--<li class="sousuo-s" style="width: 240px">-->
-                        <!--<div class="sousuoinput-s">-->
-                            <!--<input type="text" placeholder="搜索">-->
-                            <!--<a href=""><img src="../images/Son41/fdj.png" alt=""></a>-->
-                        <!--</div>-->
-                    <!--</li>-->
-                <!--</ul>-->
-                <!--<ul class="headul1-s">-->
-                    <!--<li class="a-s"><a href=""><img src="../images/Son41/Aa.png" alt=""></a> </li>-->
-                    <!--<li class="beta-s"><a href=""><img src="../images/Son41/beta.png" alt=""></a></li>-->
-                    <!--<li class="zone-s">-->
-                        <!--<a href="">-->
-                            <!--<img src="../images/Son41/zone.jpg" alt="">-->
-                            <!--<img src="../images/Son41/sanjiao.png" alt="">-->
-                        <!--</a>-->
-                    <!--</li>-->
-                    <!--<li class="xwz">-->
-                        <!--<img src="../images/Son41/xwz.png" alt="">&nbsp;&nbsp;写文章-->
-                    <!--</li>-->
-                <!--</ul>-->
-            <!--</div>-->
-        <!--</div>-->
+
 <HeadTop></HeadTop>
         <div class="all">
             <div class="body-s">
@@ -130,8 +97,34 @@
                                 <!-- <span class="trys">试读</span> -->
                                 <a href=""> 【历史】相思引——倾世绝恋三十载（2）</a>
                             </li>
+                            <li>
+                                <span class="parts">11</span>
+                                <!-- <span class="trys">试读</span> -->
+                                <a href=""> 【历史】相思引——倾世绝恋三十载（3）</a>
+                            </li>
+                            <li>
+                                <span class="parts">12</span>
+                                <!-- <span class="trys">试读</span> -->
+                                <a href=""> 【历史】相思引——倾世绝恋三十载（4）</a>
+                            </li>
+                            <li>
+                                <span class="parts">13</span>
+                                <!-- <span class="trys">试读</span> -->
+                                <a href=""> 【历史】相思引——倾世绝恋三十载（5）</a>
+                            </li>
+                            <li>
+                                <span class="parts">14</span>
+                                <!-- <span class="trys">试读</span> -->
+                                <a href=""> 【历史】相思引——倾世绝恋三十载（6）</a>
+                            </li>
+                            <li>
+                                <span class="parts">15</span>
+                                <!-- <span class="trys">试读</span> -->
+                                <a href=""> 【历史】相思引——倾世绝恋三十载（7）</a>
+                            </li>
+
                         </ul>
-                        <a href="" class="loadmore">查看更多<sub>ˇ</sub></a>
+                        <a href="javascript:;" class="loadmore" @click="more">查看更多<sub>ˇ</sub></a>
                     </div>
                     <div class="bodyright-s">
                         <div class="right1s">
@@ -368,7 +361,7 @@
 
     .body4s {
         width: 625px;
-        height: 705px;
+        height: auto;
         padding: 25px 25px 20px;
         border-radius: 6px;
         border: 1px solid #e0e0e0;
@@ -399,6 +392,8 @@
         margin-left: 35px;
         margin-bottom: 10px;
         display: block;
+        height: 570px;
+        overflow: hidden;
     }
 
     .mulus li {
@@ -406,6 +401,10 @@
         border-bottom: 1px solid #F0F0F0;
         padding: 16px 0;
         line-height: 20px;
+    }
+
+    .mulus li:hover{
+        background-color: lightgrey;
     }
 
     .mulus li .parts {
@@ -607,6 +606,12 @@
         methods:{
             md(){
                 document.documentElement.scrollTop = document.body.scrollTop =0
+            },
+            more(){
+                var h=document.getElementsByClassName("mulus")[0];
+                var content=document.getElementsByClassName("loadmore")[0];
+                h.style.height="800px";
+                content.style.opacity="0";
             }
         }
     }
