@@ -198,7 +198,7 @@
                     <div class="limian-y">
                         <h3>支付宝扫码支付</h3>
                         <div>
-                            <img src="../images/Son41/33.png" alt="">
+                            <img src="../images/Son41/999.png" alt="">
                         </div>
                         <div class="jg-y">
                             支付金额
