@@ -21,6 +21,7 @@
 
     import Son4 from "./compoenets/Son4.vue";
     import Son41 from "./views/Son41.vue";
+    import Son42 from "./views/Son42.vue";
 
     import Son5 from "./compoenets/Son5.vue";
 
@@ -43,6 +44,7 @@
 
             Son4,
             Son41,
+            Son42,
 
             Son5,
 

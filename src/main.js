@@ -12,6 +12,7 @@ import Son2 from "./compoenets/Son2.vue"
 import Son3 from "./compoenets/Son3.vue"
 import Son4 from "./compoenets/Son4.vue"
 import Son41 from "./views/Son41.vue"
+import Son42 from "./views/Son42.vue"
 import Son5 from "./compoenets/Son5.vue"
 import yemian3 from "./compoenets/yemian3.vue"
 
@@ -62,6 +63,10 @@ const routes = [//路由
     {
         path: "/son41",
         component:Son41,
+    },
+    {
+        path: "/son42",
+        component:Son42,
     },
     {
         path: "/son5",

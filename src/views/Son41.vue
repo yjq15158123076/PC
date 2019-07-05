@@ -44,7 +44,10 @@
                     <div class="body4s">
                         <div class="headers">
                             <span>共 40 篇</span>
-                            <button>切换顺序</button>
+                            <router-link to="/son42">
+                                <button>切换顺序</button>
+                            </router-link>
+
                         </div>
                         <ul class="mulus">
                             <li>
