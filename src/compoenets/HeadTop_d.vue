@@ -2,7 +2,7 @@
     <div>
         <div class="header-y clear">
             <div class="width-limit-y" >
-                <a href="" class="logo-y">
+                 <a href="" class="logo-y">
                     <img src="../images/Head-Y/1.png" alt="">
                 </a>
                 <a href="javascript:;" class="btn write-btn-y" target="_blank">
@@ -43,13 +43,13 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div> 
         </div>
     </div>
 </template>
 
-<style scoped>
-    .header-y {
+<style>
+        .header-y {
         width: 100%;
         height: 55px;
         min-height: 50px;
@@ -248,11 +248,15 @@
 
     .search-btn-y > img {
         margin: 5px -1px 0 0;
-    }
+    } 
 </style>
 
-
-
 <script>
+export default {
+    data:function(){
+        return{
 
+        }
+    },
+}
 </script>

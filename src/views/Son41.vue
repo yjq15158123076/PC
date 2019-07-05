@@ -6,7 +6,7 @@
             <div class="body-s">
                 <div class="bodycenter-s">
                     <div class="body1s">
-                        <a href="javascript:;" class="xsy1"><img src="../images/Son41/body1s.jpg" alt=""></a>
+                        <a href="" class="xsy1"><img src="../images/Son41/body1s.jpg" alt=""></a>
                         <div class="titles">
                             <a href="">相思引（连载故事）</a>
                         </div>
@@ -15,9 +15,9 @@
                             &nbsp;&nbsp;&nbsp;&nbsp;付费</span>142577字&nbsp;‧&nbsp;6754阅读&nbsp;‧&nbsp;40人关注
                         </div>
                         <div class="naxia">
-                            <a href="javascript:;" class="ljnx" @click="buy">立即拿下 ￥9.90</a>
-                            <a href="javascript:;" class="mfsd">免费试读</a>
-                            <a href="javascript:;" class="guanzhu">+&nbsp;&nbsp;关注</a>
+                            <a href="" class="ljnx">立即拿下 ￥9.90</a>
+                            <a href="" class="mfsd">免费试读</a>
+                            <a href="" class="guanzhu">+&nbsp;&nbsp;关注</a>
                         </div>
                     </div>
                     <div class="body2s">
@@ -27,103 +27,100 @@
                         </div>
                         <div class="biaoqians">
                             <span><img src="../images/Son41/biaoqian.png" alt=""></span>
-                            <a href="javascript:;">历史</a>
-                            <a href="javascript:;">古风</a>
-                            <a href="javascript:;">言情</a>
-                            <a href="javascript:;">付费连载</a>
+                            <a href="">历史</a>
+                            <a href="">古风</a>
+                            <a href="">言情</a>
+                            <a href="">付费连载</a>
                         </div>
                     </div>
                     <div class="body3s">
                         <p class="title11s">最近更新</p>
                         <div class="lishi">
                             <span class="news"><img src="../images/Son41/new.png" alt=""></span>
-                            <span><a href="javascript:;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【历史】相思引——风起于末逆水寒（6）</a></span>
+                            <span><a href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【历史】相思引——风起于末逆水寒（6）</a></span>
                             <span class="riqiss">2019-06-14 09:49</span>
                         </div>
                     </div>
                     <div class="body4s">
                         <div class="headers">
                             <span>共 40 篇</span>
-                            <router-link to="/son42">
-                                <button>切换顺序</button>
-                            </router-link>
-
+                            <button>切换顺序</button>
                         </div>
                         <ul class="mulus">
                             <li>
                                 <span class="parts">1</span>
                                 <span class="trys">试读</span>
-                                <a href="javascript:;"> 【历史】相思引——宁负如来不负卿（1）</a>
+                                <a href=""> 【历史】相思引——宁负如来不负卿（1）</a>
                             </li>
                             <li>
                                 <span class="parts">2</span>
                                 <span class="trys">试读</span>
-                                <a href="javascript:;"> 【历史】相思引——宁负如来不负卿（2）</a>
+                                <a href=""> 【历史】相思引——宁负如来不负卿（2）</a>
                             </li>
                             <li>
                                 <span class="parts">3</span>
                                 <span class="trys">试读</span>
-                                <a href="javascript:;"> 【历史】相思引——宁负如来不负卿（3）</a>
+                                <a href=""> 【历史】相思引——宁负如来不负卿（3）</a>
                             </li>
                             <li>
                                 <span class="parts">4</span>
                                 <!-- <span class="trys">试读</span> -->
-                                <a href="javascript:;"> 【历史】相思引——宁负如来不负卿（4）</a>
+                                <a href=""> 【历史】相思引——宁负如来不负卿（4）</a>
                             </li>
                             <li>
                                 <span class="parts">5</span>
                                 <!-- <span class="trys">试读</span> -->
-                                <a href="javascript:;"> 【历史】相思引——似是故人来（1）</a>
+                                <a href=""> 【历史】相思引——似是故人来（1）</a>
                             </li>
                             <li>
                                 <span class="parts">6</span>
                                 <!-- <span class="trys">试读</span> -->
-                                <a href="javascript:;"> 【历史】相思引——似是故人来（2）</a>
+                                <a href=""> 【历史】相思引——似是故人来（2）</a>
                             </li>
                             <li>
                                 <span class="parts">7</span>
                                 <!-- <span class="trys">试读</span> -->
-                                <a href="javascript:;"> 【历史】相思引——似是故人来（3）</a>
+                                <a href=""> 【历史】相思引——似是故人来（3）</a>
                             </li>
                             <li>
                                 <span class="parts">8</span>
                                 <!-- <span class="trys">试读</span> -->
-                                <a href="javascript:;"> 【历史】相思引——似是故人来（4）</a>
+                                <a href=""> 【历史】相思引——似是故人来（4）</a>
                             </li>
                             <li>
                                 <span class="parts">9</span>
                                 <!-- <span class="trys">试读</span> -->
-                                <a href="javascript:;"> 【历史】相思引——倾世绝恋三十载（1）</a>
+                                <a href=""> 【历史】相思引——倾世绝恋三十载（1）</a>
                             </li>
                             <li>
                                 <span class="parts">10</span>
                                 <!-- <span class="trys">试读</span> -->
-                                <a href="javascript:;"> 【历史】相思引——倾世绝恋三十载（2）</a>
+                                <a href=""> 【历史】相思引——倾世绝恋三十载（2）</a>
                             </li>
                             <li>
                                 <span class="parts">11</span>
                                 <!-- <span class="trys">试读</span> -->
-                                <a href="javascript:;"> 【历史】相思引——倾世绝恋三十载（3）</a>
+                                <a href=""> 【历史】相思引——倾世绝恋三十载（3）</a>
                             </li>
                             <li>
                                 <span class="parts">12</span>
                                 <!-- <span class="trys">试读</span> -->
-                                <a href="javascript:;"> 【历史】相思引——倾世绝恋三十载（4）</a>
+                                <a href=""> 【历史】相思引——倾世绝恋三十载（4）</a>
                             </li>
                             <li>
                                 <span class="parts">13</span>
                                 <!-- <span class="trys">试读</span> -->
-                                <a href="javascript:;"> 【历史】相思引——倾世绝恋三十载（5）</a>
+                                <a href=""> 【历史】相思引——倾世绝恋三十载（5）</a>
                             </li>
                             <li>
                                 <span class="parts">14</span>
                                 <!-- <span class="trys">试读</span> -->
-                                <a href="javascript:;"> 【历史】相思引——倾世绝恋三十载（6）</a>
+                                <a href=""> 【历史】相思引——倾世绝恋三十载（6）</a>
                             </li>
                             <li>
                                 <span class="parts">15</span>
                                 <!-- <span class="trys">试读</span> -->
-                                <a href="javascript:;"> 【历史】相思引——倾世绝恋三十载（7）</a>
+                                <a href=""> 【历史】相思引——倾世绝恋三十载（7）</a>
                             </li>
 
                         </ul>
@@ -132,14 +129,14 @@
                     <div class="bodyright-s">
                         <div class="right1s">
                             <span>分享到</span>
-                            <a href="javascript:;"><img src="../images/Son41/weibo.png" alt=""></a>
-                            <a href="javascript:;"><img src="../images/Son41/weixin.png" alt=""></a>
-                            <a href="javascript:;"><img src="../images/Son41/gengduo.png" alt=""></a>
+                            <a href=""><img src="../images/Son41/weibo.png" alt=""></a>
+                            <a href=""><img src="../images/Son41/weixin.png" alt=""></a>
+                            <a href=""><img src="../images/Son41/gengduo.png" alt=""></a>
                         </div>
                         <p class="lianzai1s">连载作者</p>
                         <div class="right2s">
-                            <a href="javascript:;" class="right2img1"><img src="../images/Son41/lianzai.png" alt=""></a>
-                            <a href="javascript:;" class="right2img2">东篱若尘</a>
+                            <a href="" class="right2img1"><img src="../images/Son41/lianzai.png" alt=""></a>
+                            <a href="" class="right2img2">东篱若尘</a>
                         </div>
                         <p class="qita1s"> 作者的其他连载</p>
                         <ul class="qitazuopins">
@@ -167,51 +164,6 @@
         <a href="javascript:;" class="gd-y" @click="md" >
             ^
         </a>
-
-        <div class="v-modal-wrap-y">
-            <div class="v-modal-mask"></div>
-            <div class="v-modal">
-                <div class="main-y">
-                    <h3>购买连载</h3>
-                    <div class="zf-y">
-                        <span>支付总额</span>
-                        <span>￥9.90</span>
-                    </div>
-                    <div class="zf-y ">
-                        <span>支付方式</span>
-                        <span>支付宝</span>
-                    </div>
-                    <div class=" btn-pay-y" @click="ma">立即支付
-                    </div>
-                    <div class="buy-note-tip-y">
-                        <p>· 你将购买的商品为虚拟内容服务，购买后不支持退订、转让、退换，请斟酌确认。</p>
-                        <p>· 购买后可在“已购内容”中查看和使用。</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="ma-y">
-            <div class="wu-y"></div>
-            <div class="box-y">
-                <div class="main-y">
-                    <div class="limian-y">
-                        <h3>支付宝扫码支付</h3>
-                        <div>
-                            <img src="../images/Son41/999.png" alt="">
-                        </div>
-                        <div class="jg-y">
-                            支付金额
-                            <span>￥9.90</span>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
     </div>
 </template>
 
@@ -643,173 +595,6 @@
     }
 
 
-    .v-modal-wrap-y{
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 9999;
-        background-color: transparent;
-        display: none;
-    }
-
-    .v-modal-mask{
-        background-color: rgba(255, 255, 255, 0.7);
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        transition: opacity 0.3s;
-        opacity: 1;
-
-    }
-
-    .v-modal{
-        position: absolute;
-        left: 30%;
-        top: 0;
-        border-radius: 6px;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        background-color: #fff;
-        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
-        width: 480px;
-        overflow: visible !important;
-        text-align: center;
-        transition: all 0.5s;
-    }
-
-    .main-y{
-        padding: 20px 20px 20px 20px;
-        font-size: 15px;
-        color: #333;
-        padding-left: 60px !important;
-        padding-right: 60px !important;
-    }
-
-    .main-y>h3{
-        font-size: 16px;
-        font-weight: 600;
-        margin-bottom: 24px;
-        margin-top: 30px;
-        text-align: center;
-    }
-
-    .zf-y{
-        border-top: 1px solid #e7e7e7;
-        height: 74px;
-    }
-
-    .zf-y>span:nth-child(1){
-        line-height: 73px;
-        font-size: 14px;
-        float: left;
-    }
-
-    .zf-y>span:nth-child(2){
-        font-size: 28px;
-        font-weight: 600;
-        line-height: 74px;
-        float: right;
-        color: #EA6F5A;
-    }
-
-
-    .btn-pay-y{
-        font-size: 14px;
-        margin-right: 8px;
-        margin-top: 24px;
-        margin-bottom: 20px;
-        padding: 8px 25px;
-        color: #fff;
-        background-color: #ea6f5a;
-        border-radius: 20px;
-        border: 1px solid transparent;
-        display:block;
-        font-weight: 400;
-        margin: 0 auto;
-        vertical-align: middle;
-        width: 120px;
-    }
-
-    .buy-note-tip-y{
-        margin-top: 20px;
-    }
-
-    .buy-note-tip-y>p{
-        margin-bottom: 10px;
-        text-align: left;
-        font-size: 13px;
-        color: #bbb;
-    }
-
-    .ma-y{
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 9999;
-        background-color: transparent;
-        display: none;
-    }
-
-    .wu-y{
-        background-color: rgba(255, 255, 255, 0.7);
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        transition: opacity 0.3s;
-        opacity: 1;
-    }
-
-    .box-y{
-        position: absolute;
-        left: 40%;
-        top: 20%;
-        border-radius: 6px;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        background-color: #fff;
-        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
-        width: 350px;
-        overflow: visible !important;
-        text-align: center;
-        transition: all 0.5s;
-    }
-
-    .limian-y{
-        display: inline-block;
-    }
-
-    .limian-y>h3{
-        font-size: 16px;
-        font-weight: 600;
-        margin-bottom: 24px;
-        margin-top: 30px;
-        text-align: center;
-        color: #333333;
-    }
-
-    .jg-y{
-        margin: 20px 0;
-        color: #787878;
-    }
-
-    .jg-y>span{
-        color: #F5A623
-    }
-
-
-
-
-
-
-
-
-
 </style>
 
 <script>
@@ -827,33 +612,7 @@
                 var content=document.getElementsByClassName("loadmore")[0];
                 h.style.height="800px";
                 content.style.opacity="0";
-            },
-            buy(){
-                var div=document.getElementsByClassName("v-modal-wrap-y")[0];
-                var box=document.getElementsByClassName("v-modal")[0];
-                div.style.display="block";
-                box.style.top="20%";
-                window.event? window.event.cancelBubble = true  : e.stopPropagation();
-            },
-            qq(){
-                document.onclick=function () {
-                    var box1=document.getElementsByClassName("v-modal-wrap-y")[0];
-                    var box2=document.getElementsByClassName("ma-y")[0];
-                    box1.style.display="none";
-                    box2.style.display="none";
-                }
-            },
-            ma(){
-                var div=document.getElementsByClassName("v-modal-wrap-y")[0];
-                var box=document.getElementsByClassName("ma-y")[0];
-                div.style.display="none";
-                box.style.display="block";
-                window.event? window.event.cancelBubble = true  : e.stopPropagation();
-            },
-        },
-        mounted(){
-            this.qq();
-
+            }
         }
     }
 </script>

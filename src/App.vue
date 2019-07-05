@@ -21,12 +21,15 @@
 
     import Son4 from "./compoenets/Son4.vue";
     import Son41 from "./views/Son41.vue";
-    import Son42 from "./views/Son42.vue";
 
     import Son5 from "./compoenets/Son5.vue";
 
 
-    import yemian3 from "./compoenets/yemian3.vue"
+    import yemian3 from "./views/yemian3.vue"
+    import yemian2 from "./views/yemian2.vue"
+    import yemian1 from "./views/yemian1.vue"
+    import login from "./views/login.vue"
+    import login from "./views/login.vue"
 
 
 
@@ -44,11 +47,15 @@
 
             Son4,
             Son41,
-            Son42,
 
             Son5,
 
-            yemian3
+            yemian3,
+            yemian2,
+            yemian1,
+            login,
+            login,
+
 
         }
     }

@@ -1,128 +1,56 @@
 import Vue from "vue"
-import App from "./App.vue"
-import VueRouter from "vue-router"
-import "lib-flexible"
+import yemian3 from "./views/yemian3.vue"
+import yemian1 from "./views/yemian1.vue"
+import yemian2 from "./views/yemian2.vue"
+import login from "./views/login.vue"
 
-Vue.use(VueRouter);
-
-import Home from "./compoenets/Home.vue"
-import Son1 from "./compoenets/Son1.vue"
-import Son11 from "./views/Son11.vue"
-import Son2 from "./compoenets/Son2.vue"
-import Son3 from "./compoenets/Son3.vue"
-import Son4 from "./compoenets/Son4.vue"
-import Son41 from "./views/Son41.vue"
-import Son42 from "./views/Son42.vue"
-import Son5 from "./compoenets/Son5.vue"
-import yemian3 from "./compoenets/yemian3.vue"
-
-
-
-
-
-import "./css/iconfont.css"
 import "./css/index.css"
 import "./css/base.css"
+import "./css/iconfont.css"
+import 'lib-flexible'
+import 'lib-flexible/flexible'
+//引入vue-router
+import VueRouter from "vue-router"
+Vue.use(VueRouter)
 
+import Home from "./views/Home.vue"//home路径
 
-
-
-
-
-
-const routes = [//路由
-    {
-        path: "/",
-        redirect: '/home',
-    },
-    {
-        path: "/home",
-        component:Home,
-    },
-    {
-        path: "/son1",
-        component:Son1,
-    },
-    {
-        path: "/son11",
-        component:Son11,
-    },
-
-    {
-        path: "/son2",
-        component:Son2,
-    },
-    {
-        path: "/son3",
-        component:Son3,
-    },
-    {
-        path: "/son4",
-        component:Son4,
-    },
-    {
-        path: "/son41",
-        component:Son41,
-    },
-    {
-        path: "/son42",
-        component:Son42,
-    },
-    {
-        path: "/son5",
-        component:Son5,
-    },
-
-    {
-        path: "/yemian3",
-        component:yemian3,
-    },
-
-    // {
-    //     name: 'son1',
-    //     path: '/son1 ',
-    //     component:Son1
-        // children:[
-        //     {
-        //         name: 'hot',
-        //         path: '/hot ',
-        //         component: Hot
-        //     },
-        //     {
-        //         name: 'sl',
-        //         path: '/sl ',
-        //         component: Sl
-        //     },
-        //     {
-        //         name: 'pl',
-        //         path: '/pl ',
-        //         component: Pl
-        //     },
-        //
-        //
+const routes=[
+	{
+		path:"/login",//浏览器路径
+		component:login//加载的组件
+	},
+	{
+		path:"/regis",
+		component:login
+	},
+	{
+		path:"/son_1",
+		component:yemian1
+	},
+	{
+		path:"/son_2",
+		component:yemian2
+	},
+	{
+		path:"/son_3",
+		component:yemian3
+	}
 
 ]
-
-
-const router = new VueRouter({//路由相当于选项卡
-    routes
+const router=new VueRouter({
+	routes
 })
 
-// router.beforeEach((to, from, next) => {
-//     if (to.path == "/") {
-//         next("/head")
-//     } else {
-//         next()
-//     }
-//     // console.log(to);
-//     // console.log(from);
-// })
+var Event = new Vue();
+
+Vue.prototype.Event = Event;
 
 
 new Vue({
-    el: "#app",
-    render: function (h) {
-        return h(App);
-    },
-    router
+	el: "#app",
+	render: function(h){
+		return h(App)
+	},
+	router,
 })

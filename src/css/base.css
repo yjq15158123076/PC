@@ -12,3 +12,6 @@ html,body,ul,li,img,a,p,div{
 a{
     text-decoration: none;
 }
+li{
+    list-style: none;
+}
