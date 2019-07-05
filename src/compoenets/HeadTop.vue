@@ -329,15 +329,18 @@
                     alert("未查到结果");
                 }
             },
-            qq(){
-                document.onclick=function () {
-                    var dian=document.getElementsByClassName("yc-y")[0];
-                    dian.style.display="none";
-                }
-            }
+            // qq(){
+            //     document.onclick=function () {
+            //
+            //     }
+            // }
         },
         mounted(){
-                this.qq();
+
+                document.addEventListener('click',function () {
+                    var dian=document.getElementsByClassName("yc-y")[0];
+                    dian.style.display="none";
+                })
 
         }
     }
